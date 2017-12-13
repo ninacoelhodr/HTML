@@ -1,0 +1,107 @@
+html{
+	background-color:#ffffff;
+}
+
+body{
+	margin:0 0 0;
+}
+
+#geral img{
+	width:100%;
+}
+
+#geral p, h1, h3{
+	font-family:Verdana, Geneva, sans-serif;
+	color:#FFF;
+}
+
+#geral{
+	width: 100%;
+	display: block;
+}
+
+#direito{
+	margin: 0 auto;
+	max-width: 1024px;
+	min-width: 200px;
+	display: block;
+	height: auto;
+	border-radius: 30px 30px 0 0;
+}
+
+#esquerda{
+	margin: 40px;
+	width: 200px;
+	float: left;
+	background-color:#F9DFC7;
+}
+ #foto{
+ 	margin: 10px;
+ 	width: 150px;
+ }
+#menu{
+ 	font-family: Lato, sans-serif;
+ 	font-size: 18px;
+	width: 200px;
+}
+#menu, #menu ul, #menu ul li, #menu ul li a{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	border-width: 0px;
+	border-style: 0px;
+	border-color: 0px;
+	border-image: : 0px;
+}
+#menu ul{
+	background: rgb(255, 255, 255);
+	position: relative;
+	z-index: 597;
+	float: left;
+}
+
+#menu > ul{
+	float: none;
+}
+
+#menu ul li.active{
+	left: -8px;
+	width: 194px;
+	padding: 2px;
+	background: #ce4c4a;
+	background: linear-gradient(to top, #c43735, #d56462)
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+	border-bottom: 0;
+}
+#menu ul li {
+	float: none;
+	min-height: 1px;
+	line-height: 1em;
+	vertical-align: middle;
+}
+#menu ul > li{
+	border-left: 3px solid rgb(215, 216, 218); 
+}
+
+#menu ul a, #menu ul a:link, #menu ul a:visited{
+	display: block;
+	color: rgb(132, 136, 137);
+	font-weight: 300;
+	text-decoration: none;
+
+}
+
+#menu > ul > li > a{
+	padding: 10px 20px;
+}
+
+#menu ul > li:hover{
+	background: rgb(246, 246, 246);	    
+	border-left: 3px solid rgb(103, 78, 167);
+}
+
+#menu ul li:hover{
+	position: relative;
+	z-index: 599;
+	cursor: default;
+}
